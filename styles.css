@@ -1,0 +1,142 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f4f7f6;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: #1a1c2c;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#logo-tienda {
+    height: 60px; /* Tamaño controlado del logo */
+    width: auto;
+    border-radius: 5px;
+    object-fit: contain;
+}
+
+#buscador {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    width: 300px;
+    outline: none;
+}
+
+/* LAYOUT */
+.layout {
+    display: grid;
+    grid-template-columns: 200px 1fr 300px;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* CATEGORIAS */
+.categorias ul {
+    list-style: none;
+    padding: 0;
+}
+
+.categorias li {
+    padding: 10px;
+    background: white;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.categorias li:hover {
+    background: #e0e0e0;
+}
+
+/* PRODUCTOS */
+#productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.producto {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.producto h3 {
+    font-size: 0.95rem;
+    height: 3em;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.btn-agregar {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* CARRITO */
+.carrito-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    height: fit-content;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.item-carrito {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total-texto {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#btn-pagar {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
