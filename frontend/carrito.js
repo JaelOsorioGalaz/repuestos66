@@ -7,28 +7,28 @@ const productos = [
         nombre: "Bujias sail 1.4 2011-2016 + filtro de aire",
         categoria: "Bujías",
         precio: "22.310",
-        imagen: "img/Bujias sail 1.4 2011-2016 + filtro de aire.jpg" 
+        imagen: "img/bujias sail 1.4 2011-2016 + filtro de aire.jpg" 
     },
     {
         id: 2,
         nombre: "Filtro de petroleo y aceite hyundai porter 1995-2005",
         categoria: "Filtros y aceites",
         precio: "22.300",
-        imagen: "img/Filtro de petroleo y aceite hyundai porter 1995-2005.jpg"
+        imagen: "img/filtro de petroleo y aceite hyundai porter 1995-2005.jpg"
     },
     {
         id: 3,
         nombre: "Kit afinamiento hyundai accent RB kia rio 3-4-5",
         categoria: "Kit",
         precio: "48.800",
-        imagen: "img/Kit afinamiento hyundai accent RB kia rio 3-4-5.jpg"
+        imagen: "img/kit afinamiento hyundai accent RB kia rio 3-4-5.jpg"
     },
     {
         id: 4,
         nombre: "Kit de afinamiento spark 1000 cc + limpia inyectores",
         categoria: "Kit",
         precio: "32.300",
-        imagen: "img/Kit de afinamiento spark 1000 cc + limpia inyectores.jpg"
+        imagen: "img/kit de afinamiento spark 1000 cc + limpia inyectores.jpg"
     }
 ];
 
